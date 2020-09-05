@@ -10,29 +10,62 @@ Regardless if you're experienced or very new, please just take care of the follo
 > I will upload what I have. Anything labelled as `???` or simply does not exist where it is supposed to be, is something I simply don't know or have.
 > Please feel free to contribute if you do, however
 
+## WARNING
+
+Please do not upload or contribute mid papers / past papers. It would hurt the integrity of this repository.
+Any such pull requests would be ***denied*** without notice, comment, or explanation.
+
 # Format
+
+## Single Teacher Per Course
+
+For a single teacher in the course,
+
+- .gitignore
+- README.md
+- Recorded Notes
+  - README.md
+- Slides
+
+Where,
+
+1. .gitignore - for your personal use
+2. README.md - to contain MISC info
+3. Recorded Notes - for notes taken by students
+4. Recorded Notes > README.md - for the names of the students that contributed
+5. Slides - pptx, pdfs and other resources shared by the teacher.
+
+## Multiple Teachers Per Course
+
+For multiple teachers,
 
 - :foreach SEMESTER in SEMESTERS:
   - :foreach COURSE in COURSES:
     - :foreach TEACHER in TEACHERS:
       - Recorded Notes
+        - README.md 
       - Slides
       - README.md
     - :BOOK:
     - :COURSE_OUTLINE:
+    - .gitignore
   - README.md
  
 Where,
  
 1. `Recorded Notes` is a folder that contains student notes and collected links by students. It can be a .md, a .tex, or a .pdf file.  
-  Please remember that .TXT files are strictly not allowed because of formatting and ROI reasons
+  Please remember that ***.TXT files*** are strictly not allowed because of formatting and ROI reasons
   Want to understand how .tex works? Check out `pdflatex` command ( Linux ) and [Overleaf](overleaf.com) to practice and work with .tex files
+  If you are going to use .md files, mention your name and the date you started that file on.
+  If you are going to use .tex files, use \maketitle to update your name, date, and title
 2. `Slides` contain the lectures and material uploaded by that TEACHER
 3. `README.md` for each `SEMESER` is supposed to contain just the course names, the name of the teachers, and the name of the books. 
   Please attach links to free versions of the books if found
 4. `README.md` for each `TEACHER` should contain MISC information, such as links to google meets, online drive links, further readings, etc
 5. :BOOK: is the PDF of the books
 6. :COURSE_OUTLINE: is the course outline
+7. .gitignore - if you have some personal project files or something like that you would like to ignore
+8. Recorded Notes > README.md contains the name of the student authors. Thank you for the notes!
 
 # On the positive note
 
