@@ -1,0 +1,58 @@
+\documentclass{article}
+
+\begin{document}
+
+    \tableofcontents
+
+    \section{Server}
+
+    It is a computer program that handles multiple requests, or multiple users.
+
+    If your DMBS is residing on a server, than multiple users can use that server to access the data.
+
+    In database servers, the DBMS resides on the server. The server has its own operating system.   
+
+    A DMBS is always deployed on a server.
+
+    Usually we have multiple copies of the server, in case anyone of these goes down. 
+
+    \section{Database Management System}
+
+    It provides recovery and backup.
+
+    These are less redundant.
+
+    Redundancy would mean that there is replication or duplication of data across the records.
+
+    \section{File Based System}
+
+    It rather stores it in files and is inconsistent.
+
+    It does not give you the options to do recovery and backups.
+
+    It uses hard disk, more redundacy, no multiple views, does not support concurrency.
+
+    \section{Database System vs Filebased System}
+
+    \begin{center}
+        \begin{tabular}{||c | c||}
+            \hline
+                Database System & Filebased System \\ [0.5ex]
+            \hline\hline
+                Uses DBMS & Uses hard disk \\
+            \hline
+                Provides recovery and backup & Does not provide recovery and backup \\
+            \hline
+                Multiple views & No multiple views \\
+            \hline
+                Consistent & Inconsistent \\
+            \hline
+                Supports concurrency & No concurrency \\
+            \hline
+                Less redundant & More redundancy \\
+            \hline
+                More expensive to maintain & Less expensive to maintain \\
+            \hline
+        \end{tabular}
+    \end{center}
+\end{document}

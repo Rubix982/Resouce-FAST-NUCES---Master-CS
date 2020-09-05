@@ -1,0 +1,101 @@
+\documentclass{article}
+
+\begin{document}
+
+    \tableofcontents
+    
+    \section{Basic Introduction To Databases}
+
+    Data has a lot of importance, and most of the trends of data coming out of countries are the ones which are most economically well and self sustained.
+    For data, a straightforward definition, is a collection of facts and figures.
+    It can,
+
+    \begin{enumerate}
+        \item Collection of information about anything
+        \item Unprocessed information
+        \item Information stored in form of tables and schemas
+    \end{enumerate}
+
+    Let's say data is a list of temperatures, or it is a reading of temperatures. Say it is,
+    37, 52, 25, 27, 13, 18, 16
+
+    Some useful insights can be,
+    \begin{enumerate}
+        \item We can find the mean
+        \item See how far it is from the average of the rest of Pakistan
+        \item Is it going up, is it going down?
+        \item how can we process it?
+    \end{enumerate}
+
+    There is some slight difference between information and data.
+    
+    \begin{itemize}
+        \item When you get useful insights from the data, it's called information.
+        \item If the data is unprocessed, it remains as data.
+    \end{itemize}
+
+    \subsection{Outline}
+
+    \begin{enumerate}
+        \item Basic definitions: Data, information, Database, Database Management system, Database Systems
+        \item Database systems vs 
+    \end{enumerate}
+
+    \subsection{Definitions}
+
+    \begin{itemize}
+        \item \label{databases}{\textbf{Databases}} - Collection of related data
+        \item \textbf{Related Data} - Information that can be treated colletively about something, that serves as one entity
+    \end{itemize}
+
+    \subsection{Databases}
+
+    Let's think about a University Management System. 
+    We think of different problems,
+
+    % \begin{enumerate}
+    %     \item 
+    % \end{enumerate}
+
+    Some things to think about are as follows, 
+
+    \begin{itemize}
+        \item Features, some entitites
+        \item Information about students
+        \item Information about faculty
+        \item Information about courses
+        \item Information about accounts
+        \item Information about departments
+        \item Information about societies
+        \item Information about transport
+    \end{itemize}
+
+    We can use a kind of diagram called, ERD, which is a \emph{Entity Related Diagram}
+
+    \subsection{Database System}
+
+    When you use databases as a software, it's just called a \textit{Database Management System}.
+
+    A \textit{DBMS} is used to create a database, and is used to perform operations on it. 
+
+    DMBS can be either MS SQL Server, IBM DB2 etc.
+
+    We have something called a \textit{server side}, and then there is a \textit{user side}.
+
+    User can be a,
+    \begin{itemize}
+        \item Client
+        \item Admin
+    \end{itemize}
+
+    Let's say you made a ecommerce website, and we inserted a lot of data into it about the products. And then we placed the data on a server that serves and takes care of that information.
+    For that, for the server, we use hosting service.
+    We usually have backup servers to give the illusion of 24/7 availability of service to the users. So even if one database server goes down, we can still use another database to access the information.
+    The admin can make changes to the database server at anytime in runtime mode. He can remove, read, update, insert, and so on and so forth.
+
+    For example, when the client buys something, there is a read and write operation. 
+    When you only read \textit{data}, it's called a query. When you read and write both, it's called a \textit{transaction}.
+
+
+
+\end{document}
