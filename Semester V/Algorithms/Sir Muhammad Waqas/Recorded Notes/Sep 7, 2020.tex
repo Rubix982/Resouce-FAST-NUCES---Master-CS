@@ -1,0 +1,78 @@
+\documentclass{article}
+
+\author{Saif Ul Islam}
+\date{Sep 7th, 2020}
+\title{Algorithms, Week 2, Lec 1}
+
+\begin{document}
+
+    \maketitle
+
+    \tableofcontents
+
+    \section{General Analysis Strategy}
+
+    \begin{enumerate}
+        \item T(n): Maximum line taken by algorithm to solve any input of size n
+        \item T(n): Measure of goodness, how good or bad inidicated by function
+        \item The function will indicate how good is a algorithm
+        \item Conservative Definition - \textit{Worst Case}.
+    \end{enumerate}
+
+    What is \textit{T(n)}? It indicates the maximum time it would take for a machine to run that algorithm - the worst case scenario?
+
+    \begin{enumerate}
+        \item Form of T(n) (independent from machine)
+        \item "Linear", "Cubic", "Quadratic" etc
+        \item Bounds of T(n), upper bound, lower bound
+        \item Large n is important, as n becomes larger and larger which algorithm is better
+    \end{enumerate}
+
+    \section{Running Time Analysis}
+
+    \begin{enumerate}
+        \item The running time depends upon the input size, e.g., n
+        \item Different inputs of the same size may rsult in different running time
+        \item Criteria for measuring running time
+        \item Worst-Case Time (Maximum running time over legal inpout of size \textit{n})
+        \item Criteria Worst-case time
+        \item Let I denote an input instance
+        \item Let |I| denote its length
+        \item Let T(I) denote the running time of algorihtm on input I
+    \end{enumerate}
+
+    Some measurements are as follows,
+
+    \begin{enumerate}
+        \item Average Case Time - the average running time over all inputs of size n
+        \item Let P(I) denote the probability of seeing this input
+        \item Average case time is the weighted sum of running times with weights being the probabilities
+    \end{enumerate}
+
+    \subsection{Example: 2-Dimension Maxima}
+
+    The car selection problem can be modelled this way: For each car we assocaite (x, y) pair where,
+
+    \begin{enumerate}
+        \item x is the speed of the car
+        \item y is the negation of the price
+    \end{enumerate}
+
+    \subsubsection{Algorithm}
+
+    MAXIMA(int n, Point P[1 ... n])
+        for i <- 1 to n
+        do maximal <- true:
+            for j <- 1 to n
+            do
+                if(i != j) and  (P[i].x <= P[j].x) and (P[i].y <= P[j].y)
+                    then maximal <- false;
+                    break;
+                if maximal == true
+                    continue;
+
+    \subsubsection{Analysis}
+
+    To do \textit{Analysis}, just count the steps, 
+
+\end{document}

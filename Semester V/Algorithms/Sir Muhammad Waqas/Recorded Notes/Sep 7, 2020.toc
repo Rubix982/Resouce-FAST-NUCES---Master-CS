@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}General Analysis Strategy}{1}%
+\contentsline {section}{\numberline {2}Running Time Analysis}{1}%
+\contentsline {subsection}{\numberline {2.1}Example: 2-Dimension Maxima}{2}%
+\contentsline {subsubsection}{\numberline {2.1.1}Algorithm}{2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Analysis}{2}%
