@@ -39,7 +39,7 @@ by Ramez Elmasri  (Author), Shamkant B. Navathe (Author)](https://www.amazon.com
   - Ma'am Nazia Nazeer ( **nazia.nazeer@nu.edu.pk** )
 
 - *Books* are,
-  - 
+  - ["Fundamentals Of Management, Stephen P.Robbins, Mary Coulter"](https://hostnezt.com/cssfiles/businessadmin/Management%20by%20Robins%2011th%20ed.pdf)
 
 # Mass Communication ( MC )
 
