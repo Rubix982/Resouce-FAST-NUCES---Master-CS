@@ -73,6 +73,7 @@ by Ramez Elmasri  (Author), Shamkant B. Navathe (Author)](https://www.amazon.com
   - ["UML Reference Manual, 2nd Edition by Rumbaugh, Jacobson, Booch"](https://personal.utdallas.edu/~chung/Fujitsu/UML_2.0/Rumbaugh--UML_2.0_Reference_CD.pdf)
   - ["Java Design Patterns by Rohit Joshi, Copyright (c) Exelixis Media P.C., 2015"](https://enos.itcollege.ee/~jpoial/java/naited/Java-Design-Patterns.pdf)
   - ["Applying UML and Patterns 3rd Edition by Craig Larman"](https://github.com/AraNaldinho/Applying-uml-and-patterns-3rd-editiom/blob/master/Applying%20UML%20and%20Patterns%203rd%20Edition.pdf)
+  - ["Software Engineering, 10E, Ian Sommerville"](https://doc-0g-78-apps-viewer.googleusercontent.com/viewer/secure/pdf/21bjcj05i1hr445ss2c0vmmvvl7opsv9/eg0ge889cf2us1ril5ph9vlv4v1k9al4/1601091675000/drive/05501279617776483518/ACFrOgA2ZXCJ6lRScspXiN2KT3EVZ8pjRKgbqSZK7IrKuI7I2VtkghwC9rqHIQsG1Y-neyjX5ADTY_-KK0OiqbQzaCZTukQIHF9TiV5hBQ3HqrHTlWHTzYBLhVCPrsj2LrNrfa2_eiTSx6EK1HXY?print=true&nonce=sh466q73feitu&user=05501279617776483518&hash=tiplvnm73ska5k9dehatdfvaovmfaig8)
 
 
 # Strategic IT ( SM )
