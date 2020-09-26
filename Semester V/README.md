@@ -39,7 +39,7 @@ by Ramez Elmasri  (Author), Shamkant B. Navathe (Author)](https://www.amazon.com
   - Ma'am Nazia Nazeer ( **nazia.nazeer@nu.edu.pk** )
 
 - *Books* are,
-  - ???
+  - 
 
 # Mass Communication ( MC )
 
@@ -56,7 +56,7 @@ by Ramez Elmasri  (Author), Shamkant B. Navathe (Author)](https://www.amazon.com
   - Sir Hassan Jamil Syed ( ??? )
 
 - *Books* are,
-  - ???
+  - ["Introduction To Parallel Computing ( 2nd Edition ), Gramma"](http://srmcse.weebly.com/uploads/8/9/0/9/8909020/introduction_to_parallel_computing_second_edition-ananth_grama..pdf), with relevant lecture notes at [here](https://www-users.cs.umn.edu/~karypis/parbook/)
 
 # Software Development And Analysis ( SDA )
 
